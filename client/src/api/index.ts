@@ -1,2 +1,2 @@
-export * from './fetchContractors';
-export * from './fetchSpecialities';
+export * from "./fetchContractors";
+export * from "./fetchSpecialities";

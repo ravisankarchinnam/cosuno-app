@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import {ReactNode} from "react";
 
 export interface ISpeciality {
   id: number;
@@ -18,13 +18,8 @@ export interface AppContextProps {
   rows: IContractor[];
   page: number;
   rowsPerPage: number;
-  handleChangePage: (
-    event: React.MouseEvent<HTMLButtonElement, MouseEvent> | null,
-    page: number
-  ) => void;
-  handleChangeRowsPerPage?: React.ChangeEventHandler<
-    HTMLInputElement | HTMLTextAreaElement
-  >;
+  handleChangePage: (event: React.MouseEvent<HTMLButtonElement, MouseEvent> | null, page: number) => void;
+  handleChangeRowsPerPage?: React.ChangeEventHandler<HTMLInputElement | HTMLTextAreaElement>;
   handleFilterChange: (filters: string[]) => void;
   handleSearchChange: (value: string) => void;
 }

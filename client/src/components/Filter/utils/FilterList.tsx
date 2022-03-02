@@ -1,9 +1,9 @@
-import React, { useState, MouseEvent } from 'react';
-import { IconButton, Menu, Tooltip } from '@mui/material';
-import { FilterList as FilterListIcon } from '@mui/icons-material';
-import { useAppContext } from 'context/AppContext';
-import { ISpeciality } from 'context/types';
-import FilterListItem from './FilterListItem';
+import React, {useState, MouseEvent} from "react";
+import {IconButton, Menu, Tooltip} from "@mui/material";
+import {FilterList as FilterListIcon} from "@mui/icons-material";
+import {useAppContext} from "context/AppContext";
+import {ISpeciality} from "context/types";
+import FilterListItem from "./FilterListItem";
 
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
@@ -19,8 +19,8 @@ interface FilterListProps {
   onSelectFilter: (filter: string) => void;
 }
 
-const FilterList = ({ selectedFilters, onSelectFilter }: FilterListProps) => {
-  const { specialities } = useAppContext();
+const FilterList = ({selectedFilters, onSelectFilter}: FilterListProps) => {
+  const {specialities} = useAppContext();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
 
@@ -51,19 +51,19 @@ const FilterList = ({ selectedFilters, onSelectFilter }: FilterListProps) => {
         onClose={handleClose}
         PaperProps={PaperProps}
         MenuListProps={{
-          'aria-labelledby': 'filters',
-          role: 'listbox',
+          "aria-labelledby": "filters",
+          role: "listbox",
         }}
         anchorOrigin={{
-          vertical: 'bottom',
-          horizontal: 'right',
+          vertical: "bottom",
+          horizontal: "right",
         }}
         transformOrigin={{
-          vertical: 'top',
-          horizontal: 'right',
+          vertical: "top",
+          horizontal: "right",
         }}
       >
-        {specialities.map(({ id, name }: ISpeciality) => (
+        {specialities.map(({id, name}: ISpeciality) => (
           <FilterListItem
             key={id}
             value={name}

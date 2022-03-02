@@ -1,5 +1,5 @@
-import { Checkbox, ListItemText, MenuItem } from '@mui/material';
-import React from 'react';
+import {Checkbox, ListItemText, MenuItem} from "@mui/material";
+import React from "react";
 
 interface FilterListItemProps {
   value: string;
@@ -7,13 +7,9 @@ interface FilterListItemProps {
   onClick: (newFilter: string) => void;
 }
 
-const FilterListItem = ({ value, selected, onClick }: FilterListItemProps) => {
+const FilterListItem = ({value, selected, onClick}: FilterListItemProps) => {
   return (
-    <MenuItem
-      value={value}
-      selected={selected}
-      onClick={(event) => onClick(value)}
-    >
+    <MenuItem value={value} selected={selected} onClick={(event) => onClick(value)}>
       <Checkbox checked={selected} />
       <ListItemText primary={value} />
     </MenuItem>

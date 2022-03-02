@@ -4,10 +4,11 @@
   "description": "Provides an Api for the consuno contractors and their specialities",
   "main": "app.js",
   "scripts": {
-    "start": "node dist/app.js",
+    "start": "NODE_ENV=production node dist/app.js",
     "prod": "tsc && yarn start",
     "dev": "cross-env NODE_ENV=development nodemon",
     "lint": "eslint . --ext .ts",
+    "format": "prettier --config .prettierrc --write '{,*/**/}*.{ts,json}'",
     "postinstall": "tsc"
   },
   "author": "Ravisankar Chinnam",

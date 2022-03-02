@@ -1,9 +1,9 @@
-import axios, { AxiosRequestConfig, AxiosResponse } from 'axios';
+import axios, {AxiosRequestConfig, AxiosResponse} from "axios";
 
 const axiosClient = axios.create({
   baseURL: process.env.REACT_APP_API_BASE_URL,
   headers: {
-    'Content-Type': 'application/json',
+    "Content-Type": "application/json",
   },
 });
 
@@ -14,7 +14,7 @@ axiosClient.interceptors.request.use(
   },
   function (error: any) {
     return Promise.reject(error);
-  }
+  },
 );
 
 // Add a response interceptor
@@ -26,7 +26,7 @@ axiosClient.interceptors.response.use(
   function (error: any) {
     // triggers for status code outside 2xx range
     return Promise.reject(error?.response?.data ?? error?.message ?? error);
-  }
+  },
 );
 
 export default axiosClient;

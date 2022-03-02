@@ -1,12 +1,12 @@
-import React, { ChangeEvent, useEffect, useRef, useState } from 'react';
-import { useAppContext } from 'context/AppContext';
-import Container from './utils/Container';
-import SearchIcon from './utils/SearchIcon';
-import SearchInput from './utils/SearchInput';
+import React, {ChangeEvent, useEffect, useRef, useState} from "react";
+import {useAppContext} from "context/AppContext";
+import Container from "./utils/Container";
+import SearchIcon from "./utils/SearchIcon";
+import SearchInput from "./utils/SearchInput";
 
 const Search = () => {
-  const { handleSearchChange } = useAppContext();
-  const [searchTerm, setSearchTerm] = useState('');
+  const {handleSearchChange} = useAppContext();
+  const [searchTerm, setSearchTerm] = useState("");
   const searchOnInputChange = useRef({});
 
   searchOnInputChange.current = (term: string) => {
@@ -14,8 +14,7 @@ const Search = () => {
   };
 
   useEffect(() => {
-    typeof searchOnInputChange?.current === 'function' &&
-      searchOnInputChange?.current(searchTerm);
+    typeof searchOnInputChange?.current === "function" && searchOnInputChange?.current(searchTerm);
   }, [searchTerm]);
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
@@ -28,7 +27,7 @@ const Search = () => {
       <SearchIcon />
       <SearchInput
         placeholder="Search…"
-        inputProps={{ 'aria-label': 'search' }}
+        inputProps={{"aria-label": "search"}}
         value={searchTerm}
         onChange={handleChange}
       />

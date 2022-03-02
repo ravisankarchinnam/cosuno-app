@@ -1,20 +1,13 @@
-import React, {
-  ChangeEvent,
-  createContext,
-  useContext,
-  useEffect,
-  useState,
-} from 'react';
-import { AppContextProps, AppContextProviderProps } from './types';
-import { getFormattedContractors } from 'context/helpers';
-import useApi from './hooks';
+import React, {ChangeEvent, createContext, useContext, useEffect, useState} from "react";
+import {AppContextProps, AppContextProviderProps} from "./types";
+import {getFormattedContractors} from "context/helpers";
+import useApi from "./hooks";
+import Loader from "common/Loader";
 
 const AppContext = createContext<AppContextProps>({} as AppContextProps);
 
-const AppContextProvider = ({
-  children,
-}: AppContextProviderProps): JSX.Element => {
-  const { contractors, specialities } = useApi();
+const AppContextProvider = ({children}: AppContextProviderProps): JSX.Element => {
+  const {loading, contractors, specialities} = useApi();
   const [rows, setRows] = useState(contractors);
   const [page, setPage] = useState(0);
   const [rowsPerPage, setRowsPerPage] = useState(5);
@@ -34,10 +27,7 @@ const AppContextProvider = ({
   const handleFilterChange = (selectedFitlers: string[]) => {
     let newRows = contractors;
     if (!!selectedFitlers?.length) {
-      newRows =
-        contractors?.filter((row) =>
-          selectedFitlers?.some((filter) => filter === row?.specialities)
-        ) ?? [];
+      newRows = contractors?.filter((row) => selectedFitlers?.some((filter) => filter === row?.specialities)) ?? [];
     }
     setRows(newRows);
   };
@@ -64,7 +54,7 @@ const AppContextProvider = ({
         handleSearchChange,
       }}
     >
-      {children}
+      {loading ? <Loader /> : children}
     </AppContext.Provider>
   );
 };

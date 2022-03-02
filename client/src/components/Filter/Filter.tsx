@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { useAppContext } from 'context/AppContext';
-import FilterList from './utils/FilterList';
+import React, {useState, useEffect, useRef} from "react";
+import {useAppContext} from "context/AppContext";
+import FilterList from "./utils/FilterList";
 
 const Filter = (): JSX.Element | null => {
-  const { specialities, handleFilterChange } = useAppContext();
+  const {specialities, handleFilterChange} = useAppContext();
   const [selectedFilters, setSelectedFilters] = useState<string[]>([]);
 
   const filterOnChange = useRef({});
@@ -12,8 +12,7 @@ const Filter = (): JSX.Element | null => {
   };
 
   useEffect(() => {
-    typeof filterOnChange.current === 'function' &&
-      filterOnChange.current(selectedFilters);
+    typeof filterOnChange.current === "function" && filterOnChange.current(selectedFilters);
   }, [selectedFilters]);
 
   const handleSelectFilter = (newFilter: string) => {
@@ -27,10 +26,7 @@ const Filter = (): JSX.Element | null => {
   };
 
   return !!specialities?.length ? (
-    <FilterList
-      selectedFilters={selectedFilters}
-      onSelectFilter={handleSelectFilter}
-    />
+    <FilterList selectedFilters={selectedFilters} onSelectFilter={handleSelectFilter} />
   ) : null;
 };
 
