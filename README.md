@@ -56,7 +56,7 @@ cd server && yarn install
 yarn start
 ```
 
-### Improved (If I had more time)
+### Enhancements
 
 > - Write unit tests & cypress test
 > - Configure better linters and pre commit hooks(husky)
@@ -73,7 +73,6 @@ yarn start
 7. Implement Bidding system intefaces
 8. Implement Favorites list.
 9. I18N for multiple languages
-10. Lot more possibilities...
 
 #### Backend
 
@@ -83,4 +82,7 @@ yarn start
 4. Implement CRUD Operations for Contractors
 5. Implement CRUD operations for specialities
 6. Implement Bidding system API
-7. Lot more...
+
+## Author
+
+> Ravisankar Chinnam

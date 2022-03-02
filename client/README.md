@@ -68,12 +68,16 @@ yarn start
 
 ## Enhancements
 
-1. Implement Redux project in increase size
-2. Search based on city, and other properties
-3. Interface to CRUD contractor
-4. Interface to CRUD specialization
-5. Create Login/Register
-6. Lot more possibilities...
+1. Server size rendered using Next.js
+2. Implement Redux project in increase size
+3. Search based on city, and other properties
+4. Interface to CRUD contractor
+5. Interface to CRUD specialization
+6. Create Login/Register
+7. Implement Bidding system intefaces
+8. Implement Favorites list.
+9. I18N for multiple languages
+10. Lot more possibilities...
 
 ## Author
 

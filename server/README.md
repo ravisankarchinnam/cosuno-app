@@ -67,10 +67,11 @@ yarn run dev
 ## Enhancements
 
 1. Integrate API with real database.
-2. Implement Search Features (limit, sort, etc.)
+2. Implement Search Features (limit, sort, pagination, etc.)
 3. Implement Session management
-4. Provide CRUD Operations for Contractors and thier specialities
-5. Lot more...
+4. Implement CRUD Operations for Contractors
+5. Implement CRUD operations for specialities
+6. Implement Bidding system API
 
 ## Author
 
