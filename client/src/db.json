@@ -1,0 +1,485 @@
+[
+  {
+    "id": 1,
+    "name": "Lakin-Davis",
+    "city": "Torreira",
+    "specialities": "Excavation",
+    "logo": "https://placekitten.com/194/100"
+  },
+  {
+    "id": 2,
+    "name": "Russel-Brakus",
+    "city": "Bedford",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/147/100"
+  },
+  {
+    "id": 3,
+    "name": "Goodwin-Gleason",
+    "city": "Chuntai",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/127/100"
+  },
+  {
+    "id": 4,
+    "name": "Daniel, Bernhard and Wolf",
+    "city": "Tambo",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/165/100"
+  },
+  {
+    "id": 5,
+    "name": "Emard-Torphy",
+    "city": "Ndofane",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/229/100"
+  },
+  {
+    "id": 6,
+    "name": "Oberbrunner-Carter",
+    "city": "Bago",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/205/100"
+  },
+  {
+    "id": 7,
+    "name": "Bayer-Bashirian",
+    "city": "Maomiaoji",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/237/100"
+  },
+  {
+    "id": 8,
+    "name": "Pollich Inc",
+    "city": "Libiąż",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/112/100"
+  },
+  {
+    "id": 9,
+    "name": "Becker-Bartoletti",
+    "city": "Valbo",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/197/100"
+  },
+  {
+    "id": 10,
+    "name": "Langworth LLC",
+    "city": "Arwād",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/207/100"
+  },
+  {
+    "id": 11,
+    "name": "Thiel-Casper",
+    "city": "Xinpu",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/173/100"
+  },
+  {
+    "id": 12,
+    "name": "Hansen-Olson",
+    "city": "Foso",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/197/100"
+  },
+  {
+    "id": 13,
+    "name": "Weimann Inc",
+    "city": "Nürnberg",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/214/100"
+  },
+  {
+    "id": 14,
+    "name": "Powlowski-Nienow",
+    "city": "Paltamo",
+    "specialities": "Excavation",
+    "logo": "https://placekitten.com/233/100"
+  },
+  {
+    "id": 15,
+    "name": "Deckow and Sons",
+    "city": "Odeleite",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/187/100"
+  },
+  {
+    "id": 16,
+    "name": "Upton-Stracke",
+    "city": "Chartres",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/236/100"
+  },
+  {
+    "id": 17,
+    "name": "Ratke and Sons",
+    "city": "Świeradów-Zdrój",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/104/100"
+  },
+  {
+    "id": 18,
+    "name": "Rice-Cremin",
+    "city": "Blučina",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/234/100"
+  },
+  {
+    "id": 19,
+    "name": "Jast Inc",
+    "city": "Cibeureum",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/212/100"
+  },
+  {
+    "id": 20,
+    "name": "Lynch LLC",
+    "city": "Drahichyn",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/228/100"
+  },
+  {
+    "id": 21,
+    "name": "Keeling and Sons",
+    "city": "Colatina",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/234/100"
+  },
+  {
+    "id": 22,
+    "name": "Kris-Orn",
+    "city": "Jinqiao",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/234/100"
+  },
+  {
+    "id": 23,
+    "name": "Moen, Ratke and Ernser",
+    "city": "Noisy-le-Grand",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/233/100"
+  },
+  {
+    "id": 24,
+    "name": "Hackett, Corkery and Frami",
+    "city": "Sussex",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/176/100"
+  },
+  {
+    "id": 25,
+    "name": "Strosin, Emard and Yundt",
+    "city": "Redakodi",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/230/100"
+  },
+  {
+    "id": 26,
+    "name": "Jaskolski-Walter",
+    "city": "Potolo",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/147/100"
+  },
+  {
+    "id": 27,
+    "name": "Jacobs, Bauch and Johnston",
+    "city": "Lin’an",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/180/100"
+  },
+  {
+    "id": 28,
+    "name": "Zieme-Torphy",
+    "city": "San Juan de Manapiare",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/225/100"
+  },
+  {
+    "id": 29,
+    "name": "King and Sons",
+    "city": "Dongming",
+    "specialities": "Excavation",
+    "logo": "https://placekitten.com/138/100"
+  },
+  {
+    "id": 30,
+    "name": "Doyle-O'Hara",
+    "city": "Weitian",
+    "specialities": "Excavation",
+    "logo": "https://placekitten.com/115/100"
+  },
+  {
+    "id": 31,
+    "name": "Windler, Rutherford and Bahringer",
+    "city": "Ashford",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/226/100"
+  },
+  {
+    "id": 32,
+    "name": "McClure, Durgan and Lebsack",
+    "city": "Józefów",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/144/100"
+  },
+  {
+    "id": 33,
+    "name": "Jacobson, Torphy and Thiel",
+    "city": "As Sab‘ Biyār",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/196/100"
+  },
+  {
+    "id": 34,
+    "name": "Ryan-Schoen",
+    "city": "Hekou",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/113/100"
+  },
+  {
+    "id": 35,
+    "name": "Stracke-Kemmer",
+    "city": "Uzgen",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/106/100"
+  },
+  {
+    "id": 36,
+    "name": "Harvey LLC",
+    "city": "Martakert",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/178/100"
+  },
+  {
+    "id": 37,
+    "name": "Rosenbaum-Ryan",
+    "city": "Solna",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/202/100"
+  },
+  {
+    "id": 38,
+    "name": "Bins LLC",
+    "city": "Newmarket on Fergus",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/202/100"
+  },
+  {
+    "id": 39,
+    "name": "Doyle LLC",
+    "city": "San Pedro",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/244/100"
+  },
+  {
+    "id": 40,
+    "name": "Howe, Kutch and Hettinger",
+    "city": "Bayan",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/211/100"
+  },
+  {
+    "id": 41,
+    "name": "Klein, Waters and Bayer",
+    "city": "Slovenski Javornik",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/167/100"
+  },
+  {
+    "id": 42,
+    "name": "Mueller-Kunde",
+    "city": "Yankou",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/231/100"
+  },
+  {
+    "id": 43,
+    "name": "Yundt LLC",
+    "city": "Abdurahmoni Jomí",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/247/100"
+  },
+  {
+    "id": 44,
+    "name": "Bode, Rodriguez and Sanford",
+    "city": "Sanyantang",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/175/100"
+  },
+  {
+    "id": 45,
+    "name": "Dickens and Sons",
+    "city": "Barisan",
+    "specialities": "Excavation",
+    "logo": "https://placekitten.com/183/100"
+  },
+  {
+    "id": 46,
+    "name": "McLaughlin Inc",
+    "city": "Uchaly",
+    "specialities": "Excavation",
+    "logo": "https://placekitten.com/160/100"
+  },
+  {
+    "id": 47,
+    "name": "Mayert-Batz",
+    "city": "Wonokerto",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/226/100"
+  },
+  {
+    "id": 48,
+    "name": "Nienow and Sons",
+    "city": "Shiqiao",
+    "specialities": "Excavation",
+    "logo": "https://placekitten.com/231/100"
+  },
+  {
+    "id": 49,
+    "name": "Considine-Smith",
+    "city": "Tāfuna",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/129/100"
+  },
+  {
+    "id": 50,
+    "name": "Buckridge, Hegmann and Runolfsdottir",
+    "city": "Fushan",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/226/100"
+  },
+  {
+    "id": 51,
+    "name": "Reichert-Bergnaum",
+    "city": "Baćkowice",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/177/100"
+  },
+  {
+    "id": 52,
+    "name": "Renner Group",
+    "city": "Dongzaogang",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/125/100"
+  },
+  {
+    "id": 53,
+    "name": "Kuvalis Inc",
+    "city": "Les Coteaux",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/144/100"
+  },
+  {
+    "id": 54,
+    "name": "Bergnaum, Shields and Bergnaum",
+    "city": "Rochester",
+    "specialities": "Excavation",
+    "logo": "https://placekitten.com/154/100"
+  },
+  {
+    "id": 55,
+    "name": "Upton Group",
+    "city": "Nanjiao",
+    "specialities": "Excavation",
+    "logo": "https://placekitten.com/248/100"
+  },
+  {
+    "id": 56,
+    "name": "Denesik-Gorczany",
+    "city": "Jiupu",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/117/100"
+  },
+  {
+    "id": 57,
+    "name": "Borer Inc",
+    "city": "Vicente Guerrero",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/185/100"
+  },
+  {
+    "id": 58,
+    "name": "Heathcote, Steuber and Labadie",
+    "city": "Emmeloord",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/175/100"
+  },
+  {
+    "id": 59,
+    "name": "Mueller, Lakin and McClure",
+    "city": "Itaituba",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/157/100"
+  },
+  {
+    "id": 60,
+    "name": "Schaden, Tillman and Kreiger",
+    "city": "Manukaka",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/157/100"
+  },
+  {
+    "id": 61,
+    "name": "Wehner, Keebler and Kiehn",
+    "city": "Houzhai",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/157/100"
+  },
+  {
+    "id": 62,
+    "name": "Witting-Little",
+    "city": "Lacdayan",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/129/100"
+  },
+  {
+    "id": 63,
+    "name": "Wintheiser, Marvin and Reynolds",
+    "city": "San Pascual",
+    "specialities": "Plumbing",
+    "logo": "https://placekitten.com/159/100"
+  },
+  {
+    "id": 64,
+    "name": "Berge-Lynch",
+    "city": "Al Qubbah",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/204/100"
+  },
+  {
+    "id": 65,
+    "name": "Kling-Buckridge",
+    "city": "Altagracia de Orituco",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/182/100"
+  },
+  {
+    "id": 66,
+    "name": "Wiza and Sons",
+    "city": "Hellevoetsluis",
+    "specialities": "Excavation",
+    "logo": "https://placekitten.com/137/100"
+  },
+  {
+    "id": 67,
+    "name": "Gleichner-Gutkowski",
+    "city": "Randuagung",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/121/100"
+  },
+  {
+    "id": 68,
+    "name": "Moore LLC",
+    "city": "Wootton",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/229/100"
+  },
+  {
+    "id": 69,
+    "name": "Emmerich Inc",
+    "city": "Bilajari",
+    "specialities": "Electrical",
+    "logo": "https://placekitten.com/189/100"
+  }
+]

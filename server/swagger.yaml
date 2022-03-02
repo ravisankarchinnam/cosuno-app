@@ -1,0 +1,61 @@
+tags:
+  - name: contractors
+    description: Contractors API
+
+paths:
+  # [GET] contractors
+  /api/contractors:
+    get:
+      tags:
+        - contractor
+      summary: Find All contractors
+      responses:
+        200:
+          description: "OK"
+        500:
+          description: "Server Error"
+  # [GET] specialities
+  /api/specialities:
+    get:
+      tags:
+        - speciality
+      summary: Find All specialities
+      responses:
+        200:
+          description: "OK"
+        500:
+          description: "Server Error"
+
+# definitions
+definitions:
+  contractor:
+    type: object
+    required:
+      - name
+    properties:
+      id:
+        type: string
+        description: identifier for the contractor
+      name:
+        type: string
+        description: name of the contractor
+      city:
+        type: string
+        description: city of the contractor
+      logo:
+        type: string
+        description: logo of the contractor
+      speciality:
+        type: string
+        description: speciality of the contractor
+  speciality:
+    type: object
+    required:
+      - name
+    properties:
+      id:
+        type: string
+        description: identifier for the speciality
+      name:
+        type: string
+        description: name of the speciality
