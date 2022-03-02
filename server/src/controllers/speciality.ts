@@ -1,5 +1,6 @@
 import {Request, Response} from "express";
 import {ISpeciality} from "types/speciality";
+import specialitiesData from "../db/specialities.json";
 
 /**
  * retrieves specialities list and send response.
@@ -10,7 +11,7 @@ import {ISpeciality} from "types/speciality";
  */
 export const getSpecialities = async (req: Request, res: Response): Promise<void> => {
   try {
-    const specialities: ISpeciality[] = require("../db/specialities.json");
+    const specialities: ISpeciality[] = await specialitiesData;
     res.send(specialities);
   } catch (error) {
     console.error(error.message);
