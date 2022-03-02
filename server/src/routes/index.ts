@@ -1,5 +1,4 @@
-import {getContractors} from "controllers/contractor";
-import {getSpecialities} from "controllers/speciality";
+import {getContractors, getSpecialities} from "../controllers";
 import {Router} from "express";
 
 const router: Router = Router();
