@@ -64,18 +64,21 @@ yarn start
 
 #### Frontend
 
-1. Implement Redux project in increase size
-2. Search based on city, and other properties
-3. Interface to CRUD contractor
-4. Interface to CRUD specialization
-5. Create Login/Register
-6. Implement Bidding system intefaces
-7. Lot more possibilities...
+1. Server size rendered using Next.js
+2. Implement Redux project in increase size
+3. Search based on city, and other properties
+4. Interface to CRUD contractor
+5. Interface to CRUD specialization
+6. Create Login/Register
+7. Implement Bidding system intefaces
+8. Implement Favorites list.
+9. I18N for multiple languages
+10. Lot more possibilities...
 
 #### Backend
 
 1. Integrate API with real database.
-2. Implement Search Features (limit, sort, etc.)
+2. Implement Search Features (limit, sort, pagination, etc.)
 3. Implement Session management
 4. Implement CRUD Operations for Contractors
 5. Implement CRUD operations for specialities
